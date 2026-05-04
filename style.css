@@ -17,6 +17,10 @@
 body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--bg-color);
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), url('/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: var(--text-dark);
   line-height: 1.6;
 }
